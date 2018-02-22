@@ -15,7 +15,7 @@ h1, h2, h3, p, caption, td{
 
 h1{
   color: #00D484;
-  padding-left: 1rem;
+  padding-left: 4rem;
   margin: 2rem 0 0 0;
   font-size:1.2em;
 }
@@ -235,7 +235,12 @@ img{
   background-color: red;
 }
 
-
+section.resultaten div.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 4rem;
+  grid-gap: 1rem;
+}
 
 
 
@@ -245,7 +250,7 @@ img{
   section.resultaten div.grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: .5rem;
+    padding: 0 4rem;
     grid-gap: .5rem;
   }
 
@@ -291,6 +296,10 @@ img{
     padding: .5rem 4rem .5rem 4rem;
   }
 
+  h1{
+    padding-left: 4rem;
+  }
+
 
 
 }
@@ -306,6 +315,10 @@ img{
     grid-template-columns: 1fr;
     padding: .5rem;
     grid-gap: .5rem;
+  }
+
+  h1{
+    padding-left: 1rem;
   }
 
   /* section.resultaten article.resultaat:nth-of-type(2){
